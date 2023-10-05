@@ -1,0 +1,15 @@
+*{padding: 0%; margin: 0%;}
+body{margin: 5px; background-color: rgba(103,70,130,255);}
+header{background-color: rgba(255,254,3,255); width: 99%; height: 60px; border-radius: 10px; border: solid black 5px; display: flex; align-items: center; }
+h1{margin-left: 10px;}
+.centrar{height: 430px; width: 99%; display: flex; justify-content: space-between; gap: 10px; margin-top: 10px; margin-bottom: 20px;}
+nav{background-color: rgba(214,254,132,255); width: 100%; height: 100%; border-radius: 10px; border: solid black 5px;}
+article{background-color: rgba(253,153,203,255); width: 160%; height: 100%; border-radius: 10px; border: solid black 5px;}
+aside{width: 100%; height: 100%; background-color: rgba(214,254,132,255); border-radius: 10px; border: solid black 5px;}
+footer{ width: 99%; height: 60px; background-color: rgba(255,254,3,255); border-radius: 10px; border: solid black 5px;}
+
+@media only screen and (max-width:600px){
+    header, nav, article, aside, footer{font-size: 10px; width: 98%;}
+    .centrar{flex-direction: column; width: 100%;}
+    .article{height: 150%;}
+}
